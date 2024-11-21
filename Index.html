@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<script src="Main.js"></script>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="" class="logo">Q.Cafe</a>
+            <div class="navbar">
+                <a href="#home" class="nav_link">Home</a>
+                <a href="#home" class="nav_link">Service</a>
+                <a href="#home" class="nav_link">Products</a>
+                <a href="#home" class="nav_link">Team</a>
+                <a href="#home" class="nav_link">Reviews</a>
+            </div>
+
+            <div class="nav-icons">
+                <a href="#"><i class='bx bx-user'></i></a>
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="Home container" id="home">
+        <div class="home-text">
+            <h1>
+                Enjoy a new blend <br />
+                of coffee beans
+            </h1>
+            <p>
+                Brew or order a Perfect Coffee based on your mood Anywhere Anytime
+            </p>
+            <a href="" class="btn">
+                <span>Shop Now</span>
+                <i class="bx bx-up-arrow-alt"></i>
+            </a>
+        </div>
+        <img src="hero.png" alt="" class="home-img">
+    </section>
+
+    <section class="services container" id="services">
+        <div class="heading">
+            <h2>
+                Blending culture, coffee & top <br />
+                notch services
+            </h2>
+        </div>
+        <div class="service-content">
+            <div class="ser-box">
+                <img src="ser-1.png" alt="">
+                <p>Equipment</p>
+            </div>
+            <div class="ser-box">
+                <img src="ser-2.png" alt="">
+                <p>Type Of Coffee</p>
+            </div>
+            <div class="ser-box">
+                <img src="ser-3.png" alt="">
+                <p>Take A Way</p>
+            </div>
+            <div class="ser-box">
+                <img src="ser-4.png" alt="">
+                <p>Beans Varient</p>
+            </div>
+            <div class="ser-box">
+                <img src="ser-5.png" alt="">
+                <p>Pastry</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products container" id="products">
+        <div class="heading">
+            <h2>Our Top Selling Products</h2>
+            <p>
+                It takes a lot of heart work at every step to create the best
+                coffee possible, and we know it takes a lot of grit to keep
+                your own grind going.
+            </p>
+        </div>
+        <div class="product-content">
+            <!-- Box.1 -->
+            <div class="product-box">
+                <i class="bx bx-heart heart-icon"></i>
+                <img src="product-1.png" alt="">
+                <p>4 Types Available</p>
+                <h2>Instant Coffee</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+            </div>
+
+            <!-- Box.2 -->
+            <div class="product-box">
+                <i class="bx bx-heart heart-icon"></i>
+                <img src="product-2.png" alt="">
+                <p>4 Types Available</p>
+                <h2>Black Coffee</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+            </div>
+
+            <!-- Box.3 -->
+            <div class="product-box">
+                <i class="bx bx-heart heart-icon"></i>
+                <img src="product-3.png" alt="">
+                <p>4 Types Available</p>
+                <h2>Latte</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+            </div>
+
+            <!-- Box.4 -->
+            <div class="product-box">
+                <i class="bx bx-heart heart-icon"></i>
+                <img src="product-4.png" alt="">
+                <p>4 Types Available</p>
+                <h2>Cappuccino</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+            </div>
+
+            <!-- Box.5 -->
+            <div class="product-box">
+                <i class="bx bx-heart heart-icon"></i>
+                <img src="product-5.png" alt="">
+                <p>4 Types Available</p>
+                <h2>Expresso</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+            </div>
+
+            <!-- Box.6 -->
+            <div class="product-box">
+                <i class="bx bx-heart heart-icon"></i>
+                <img src="product-6.png" alt="">
+                <p>4 Types Available</p>
+                <h2>Mocha</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="booking-section" id="booking">
+        <div class="booking-container">
+            <h2>Reserve a Table</h2>
+            <p>Book a table at our coffee shop for a memorable experience.</p>
+            
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests" required>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4 People</option>
+                        <option value="5">5 People</option>
+                        <option value="6">6 People</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="booking-btn">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>We serve freshly brewed coffee made from high-quality beans, bringing a unique experience to each cup.</p>
+            </div>
+
+            <div class="footer-navigation">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
